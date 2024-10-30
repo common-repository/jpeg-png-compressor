@@ -1,0 +1,163 @@
+@media screen and (max-width:1199px){
+    h1{
+        font-size: 32px;
+    }
+    .uploadImg-block > div.upload-box h5 {
+        font-size: 14px;
+    }    
+    .uploadImg-block > div.upload-box h1 {
+        font-size: 30px;
+    }    
+    .png-main-outer p {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1000px){
+    h1{
+        font-size: 28px;
+    }
+    .png-main-outer p {
+        font-size: 14px;
+    }
+    h2{
+        font-size: 24px;
+    }
+    h3, h3.block-heading, .png-block h3{
+        font-size: 20px;
+    }
+    .form-group > .form-field, .common-btn{
+        font-size: 14px;
+    }
+    .png-block p {
+        margin-bottom: 20px;
+    }
+    ul.accout-options li {
+        font-size: 15px;
+        padding: 8px 0;
+        padding-left: 30px;
+    }
+    ul.accout-options{
+        background-image: none;
+    }
+    .png-inner-block > h4{
+        font-size: 16px;
+    }
+    h3.block-heading {
+        font-size: 18px;
+    }
+    .compress-label > .label-content h4 {
+        font-size: 14px;
+    }
+    .compress-label .label-btn {
+        width: 45px;
+        flex: 0 0 45px;
+    }
+    .compress-label > .label-content {
+        width: calc(100% - 45px);
+        flex: 0 0 calc(100% - 45px);
+    }
+    .png-inner-block h6 {
+        font-size: 12px;
+    }
+    .select-size li{
+        margin-bottom: 10px;
+    }
+    .checkbox-label p{
+        font-size: 12px;
+    }
+    .uploadImg-block > div.upload-box{
+        padding: 10px;
+    }
+    .uploadImg-block > div.upload-box h5 {
+        min-height: 30px;
+    }
+    .uploadImg-block > div.upload-box h1 {
+        font-size: 26px;
+    }
+        
+}
+@media screen and (max-width:700px){
+    .small-blocks{
+        display: block;
+    }
+    .small-blocks > div {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 22px;
+    }
+    h3, h3.block-heading, .png-block h3{
+        font-size: 18px;
+    }
+    .png-container{
+        padding: 30px 20px;
+    }
+    .png-block{
+        margin-bottom: 30px;
+    }
+}
+@media screen and (max-width:600px){
+    .select-size li{
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    .small-blocks{
+        display: block;
+    }
+    .small-blocks > div {
+        max-width: 100%;
+        width: 100%;
+        flex: 0 0 100%;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    h3, h3.block-heading, .png-block h3{
+        font-size: 16px;
+    }
+    .form-group{
+        height: 35px;
+    }
+    .form-group > span.fa{
+        font-size: 16px;
+    }
+    .common-btn{
+        height: 35px;
+        line-height: 35px;
+    }
+    .main-head {
+        margin-bottom: 40px;
+    }
+    .uploadImg-block > div.upload-box h5 {
+        font-size: 13px;
+    }
+    .uploadImg-block > div.upload-box h1 {
+        font-size: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+    .png-block{
+        padding: 15px;
+    }
+    .saving-chart, .saving-detail{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .png-block p{
+        line-height: 20px;
+    }
+    p.remember-msg{
+        font-size: 12px;
+        line-height: 16px;
+    }   
+}

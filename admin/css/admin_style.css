@@ -1,0 +1,52 @@
+a.custom-compress.compress-btn {background: #000; color: #fff; padding: 3px 10px 3px 10px; display: inline-block; border: 1px solid #000; border-radius: 4px;}
+#pjci-optimization-chart { float: left; position: relative; width: 50%; text-align: center; }
+#pjci-optimization-chart div.value { position: absolute; top: -10px; left: 14px; width: 100%; text-align: center; }
+#pjci-optimization-chart div.value div.percentage { width: 50%; margin-left: auto; margin-right: auto; margin-top: 56px; font-size: 2.1em; line-height: 1em; }
+#pjci-optimization-chart div.value div.label { width: 50%; margin-left: auto; margin-right: auto; font-size: 1.4em; line-height: 1.2em; }
+.pie-value { color: #57a800; }
+table.whitebox { min-width: 750px; margin-top: 16px; border: 1px solid #e5e5e5;	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04); background-color: #fff; }
+.pjci-compress-image span.icon {position: absolute;}
+.pjci-compress-image.spinner.hidden {display: none;visibility: hidden;float: none;margin-top: 0;}
+.pjci-compress-image span.icon {display: inline-block;margin-left: -4px;padding-right: 4px;}
+.pjci-compress-image span.spinner {visibility: hidden;float: none;margin: 0px 0px 0px -32px;}
+.pjci-compress-image .spinner {background: url(../image/pjci_loader.svg) no-repeat center;background-size: 25px;display: inline-block;vertical-align: middle;opacity: .7;filter: alpha(opacity=70);width: 30px;height: 22px;margin: 4px 10px 0;}
+.spinner_button {visibility: hidden; background: url(../image/button-spinner.gif) no-repeat;background-size: 20px 20px;display: inline-block; vertical-align: middle;opacity: .7;filter: alpha(opacity=70);width: 20px;height: 20px;margin: 0px 7px 0;}
+.success_msg {margin: 3px 0px 0 0;color: green;}
+#id-optimizing {display: none;}
+.optimize {padding: 50px 10px 40px 10px;text-align: center;clear: both;background: #fff;margin-top: 20px;}
+#myprogressBar{width: 1%; background-color: #4666b0;
+    background-image: linear-gradient( -63deg, #4666b0 0%, #4666b0 25%, #5572b7 25%, #5572b7 50%, #4666b0 50%, #4666b0 75%, #5572b7 75%, #5572b7 100% );}
+#myprogressBar {position: absolute;left: 0; min-width: 32px;
+    width: 0;height: 32px; z-index: 2;border-radius: 16px;
+    transition: width 1s ease; background-size: 40px 80px;
+    -webkit-backface-visibility: hidden; -webkit-perspective: 1000; backface-visibility: hidden; perspective: 1000;}
+.numbers {position: relative; z-index: 3; text-shadow: 1px 1px 3px rgba(0,0,0,0.2);}
+.progressbar {position: relative;height: 32px; /*margin-bottom: 32px;*/ line-height: 32px; border-radius: 32px; font-size: 1.2em;
+    font-weight: bold; color: #fff;background-color: #ebebeb;}
+.btn { padding: 14px 20px;display: table;background-color: white;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);transition: 0.6s all;
+  cursor: pointer;}
+.btn:hover {box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.4);}
+.white-popup { position: relative;background: #FFF; padding: 40px;
+  width: auto; max-width: 730px; margin: 20px auto; transition: 1s all;}
+.mfp-fade.mfp-bg {opacity: 0;-webkit-transition: all 0.15s ease-out;-moz-transition: all 0.15s ease-out; transition: all 0.15s ease-out;}
+.mfp-fade.mfp-bg.mfp-ready {opacity: 0.8;}
+.mfp-fade.mfp-bg.mfp-removing {opacity: 0;}
+.mfp-fade.mfp-wrap .mfp-content {opacity: 0;transition: all 0.4s ease-out;}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content { opacity: 1;}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content { opacity: 0;}
+.tiny-compression-details table {width: 100%; border: 1px solid #e5e5e5;border-collapse: collapse;white-space: nowrap;}
+.tiny-compression-details table th {padding: 8px 10px;  border-bottom: 1px solid #e5e5e5;font-size: 14px;}
+.tiny-compression-details table tr.even{background-color:#f9f9f9;}
+.tiny-compression-details table td {padding: 6px 10px;}
+.tiny-compression-details table tr span {text-transform: capitalize;}
+@-webkit-keyframes progress-bar-stripes {from {background-position: 40px 0;}to {background-position: 0 0; }}
+@keyframes progress-bar-stripes {from { background-position: 40px 0;}to { background-position: 0 0;}}
+.progress.active  {-webkit-animation: progress-bar-stripes 2s linear infinite; -o-animation: progress-bar-stripes 2s linear infinite;animation: progress-bar-stripes 2s linear infinite;}
+#head, #p3, #p1 {color: #ff0000;}
+.widefat td.pjci-compress-image > .thickbox, .widefat td.pjci-compress-image > span {
+	display: block;
+}
+#pjci-register-account {display: none;}
+.not_conncted {color: #ff0000;}
+.pjci-button-primary.common-btn{width:auto;}
